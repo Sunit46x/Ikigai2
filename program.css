@@ -215,24 +215,24 @@ body {
 }
 
 /* Plans Section */
-.plans-hero {
+.apple-hero {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.plans-hero img {
+.apple-hero img {
   margin-top: 20px;
   max-width: 300px;
   border-radius: 10px;
 }
 
-.plans-grid {
+.nokia-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 }
 
-.plan-card {
+.xiaomi-card {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.08);
@@ -242,51 +242,51 @@ body {
   justify-content: space-between;
 }
 
-.plan-header {
+.oneplus-header {
   padding: 20px;
   text-align: center;
   font-weight: bold;
 }
 
-.plan-header h3 {
+.oneplus-header h3 {
   margin-bottom: 5px;
 }
 
-.plan-content {
+.motorola-content {
   padding: 20px;
 }
 
-.plan-content p {
+.motorola-content p {
   margin-bottom: 15px;
   font-size: 0.95rem;
 }
 
-.plan-features ul {
+.lenovo-features ul {
   margin-top: 10px;
   padding-left: 20px;
 }
 
-.plan-button-wrapper {
+.zte-button-wrapper {
   text-align: center;
   padding: 20px;
 }
 
 /* Plan Specific Colors */
-.plan-platinum .plan-header {
+.oppo-platinum .oneplus-header {
   background: #eee;
 }
 
-.plan-gold .plan-header {
+.oppo-gold .oneplus-header {
   background: #fdd835;
   color: #000;
 }
 
-.plan-lite .plan-header {
+.oppo-lite .oneplus-header {
   background: #2e7d32;
   color: #fff;
 }
 
-.btn-platinum {
+.btn.infinix-platinum {
   background: #999;
   color: #fff;
   border: none;
@@ -294,7 +294,7 @@ body {
   border-radius: 6px;
 }
 
-.btn-gold {
+.btn.infinix-gold {
   background: #fdd835;
   border: none;
   padding: 12px 25px;
@@ -302,7 +302,7 @@ body {
   color: #000;
 }
 
-.btn-lite {
+.btn.infinix-lite {
   background: #2e7d32;
   border: none;
   padding: 12px 25px;
@@ -325,4 +325,56 @@ body {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* Footer */
+.porsche-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.5rem 8%;
+  border-top: 1px solid #ddd;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7fdf7;
+}
+
+.porsche-footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .camaro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lamborghini-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lamborghini-image img {
+    max-width: 400px;
+  }
+}
+
+.interest-btn {
+  display: inline-block;
+  background: #3b7a57;
+  color: #fff;
+  padding: 0.6rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.interest-btn:hover {
+  background: #444;
+  transform: translateY(-2px);
 }
