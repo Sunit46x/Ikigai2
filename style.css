@@ -2034,7 +2034,7 @@ iframe[name="hidden_iframe"] {
 /* Images */
 .feature img {
   width: 100%;
-  height: 160px;
+  height:200px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -2086,7 +2086,7 @@ iframe[name="hidden_iframe"] {
   }
 
   .feature img {
-    height: 140px;
+    height: 200px;
   }
 }
 
@@ -2393,7 +2393,7 @@ body {
 
 .mustang-section {
   padding: 4rem 8%;
-  background: #fff;
+  background: #f7fdf7;
 }
 
 .mustang-section h2 {
@@ -2541,7 +2541,7 @@ body {
 
 .feature img {
   width: 100%;
-  height: 160px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -2599,7 +2599,7 @@ body {
 .pillar-card img,
 .focus-area-card img {
   width: 100%;
-  height: 160px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -2667,6 +2667,6 @@ body {
 
   .pillar-card img,
   .focus-area-card img {
-    height: 140px;
+    height: auto;
   }
 }
